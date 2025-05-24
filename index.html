@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CINEPHILE's CHOICE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Sidebar Button -->
+<button id="sidebarToggle">&#9776; Genres</button>
+
+<!-- Sidebar -->
+<div id="sidebar">
+    <a href="#sci-fi">Science-Fiction</a>
+    <a href="#horror">Horror</a>
+    <a href="#action">Action</a>
+    <a href="#thriller">Thriller</a>
+    <a href="#drama">Drama</a>
+    <a href="#biopic">Biopic</a>
+    <a href="#adventure">Adventure</a>
+    <a href="#superhero">Superhero</a>
+    <a href="#quicklinks">Quick Links</a>
+</div>
+
+
+    <div class="container">
+        <h1 class="page-title">Cinephile's Choice</h1><br>
+        <p class="line1">Where stories come alive, one frame at a time</p><br>
+        <p class="line2">Discover the Magic behind every Masterpiece</p>
+        <div class="search-bar">
+            <input type="text" id="search" placeholder="Search for a movie..." onkeyup="filterMovies()">
+        </div>
+        
+        <div class="genre" id="genres">
+            <div class="genre">
+                <h2  id="sci-fi">Science-Fiction</h2>
+                    <div class="movie-list">
+                        <div class="movie" onclick="openMoviePage('interstellar.html')"><img src="https://preview.redd.it/interstellar-by-phetvanburton-sci-fi-movie-poster-textless-v0-5qvzgiaydizd1.jpeg?auto=webp&s=5b57493e9255ac948b0f13987d37c9b64bdc35c9" alt="Sci-Fi 1"><p>Interstellar</p></div>
+                        <div class="movie" onclick="openMoviePage('bladerunner.html')"><img src="https://xl.movieposterdb.com/19_12/2017/1856101/xl_1856101_2c68bb27.jpg" alt="Sci-Fi 2"><p>Blade Runner 2049</p></div>
+                        <div class="movie" onclick="openMoviePage('inception.html')"><img src="https://image.tmdb.org/t/p/original//ljsZTbVsrQSqZgWeep2B1QiDKuh.jpg" alt="Sci-Fi 3"><p>Inception</p></div>
+                        <div class="movie" onclick="openMoviePage('tenet.html')"><img src="https://i.pinimg.com/736x/a0/c1/17/a0c1173ce44f1e71fa8de6f5125d3cda.jpg" alt="Sci-Fi 4"><p>Tenet</p></div>
+                        <div class="movie" onclick="openMoviePage('dune.html')"><img src="https://m.media-amazon.com/images/I/91bkyZlRjML._AC_UF894,1000_QL80_.jpg" alt="Sci-Fi 5"><p>Dune</p></div>  
+                        <div class="movie" onclick="openMoviePage('martian.html')"><img src="https://i.pinimg.com/736x/8d/54/4b/8d544bdc2194f9c5c42b93f9b3a3ed9c.jpg" alt="Sci-Fi 6"><p>The Martian</p></div>
+                        <div class="movie" onclick="openMoviePage('predestination.html')"><img src="https://image.tmdb.org/t/p/original/sYjpJZEdwELjdHy4OVzazeJVT0z.jpg" alt="Sci-Fi 7"><p>Predestination</p></div>
+                </div>
+        </div>
+         
+        <div class="genre" id="genres">
+            <div class="genre">
+                <h2 id="horror">Horror</h2>
+                    <div class="movie-list">
+                        <div class="movie" onclick="openMoviePage('conjuring.html')"><img src="https://i.pinimg.com/736x/01/60/f6/0160f6cdaaecd4b90c75a19012ca7995.jpg" alt="Horror 1"><p>The Conjuring</p></div>
+                        <div class="movie" onclick="openMoviePage('it.html')"><img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRgkYZsfXNl9h-uMs_fYGyLC0A3d4IaKGOoG9-i-RE9COo7Lhqrcke7eFKW06gG6SC9veNHtw" alt="Horror 2"><p>It</p></div>
+                        <div class="movie" onclick="openMoviePage('hereditary.html')"><img src="https://i.ebayimg.com/00/s/MTYwMFgxMDY2/z/oSkAAOSwihpkQJIX/$_57.JPG?set_id=880000500F" alt="Horror 3"><p>Hereditary</p></div>
+                        <div class="movie" onclick="openMoviePage('bramayugam.html')"><img src="https://www.acmodasi.in/amdb/images/movie/1/x/bramayugam-2024-gRDHQq.jpg" alt="Horror 5"><p>Bramayugam</p></div>
+                        <div class="movie" onclick="openMoviePage('nosferatu.html')"><img src="https://i.ebayimg.com/images/g/hN0AAOSwc7RnVSHT/s-l1200.jpg" alt="Horror 6"><p>Nosferatu</p></div>
+                        <div class="movie" onclick="openMoviePage('thewitch.html')"><img src="https://image.tmdb.org/t/p/original/zap5hpFCWSvdWSuPGAQyjUv2wAC.jpg" alt="Horror 9"><p>The Witch</p></div>
+                        <div class="movie" onclick="openMoviePage('substance.html')"><img src="https://image.tmdb.org/t/p/original//cGm2qnmXx9tFabmzEIkJZjCJdQd.jpg" alt="Horror 10"><p>The Substance</p></div>
+                </div>
+        </div>
+
+        <div class="genre" id="genres">
+            <div class="genre">
+                <h2 id="action">Action</h2>
+                    <div class="movie-list">
+                        <div class="movie" onclick="openMoviePage('killbill.html')"><img src="https://image.tmdb.org/t/p/original/v7TaX8kXMXs5yFFGR41guUDNcnB.jpg" alt="Action 1"><p>Kill Bill: Volume 1</p></div>
+                        <div class="movie" onclick="openMoviePage('johnwick.html')"><img src="https://i.pinimg.com/736x/f3/f6/16/f3f616da39ed05d2a0ba77be99ed525d.jpg" alt="Action 2"><p>John Wick</p></div>
+                        <div class="movie" onclick="openMoviePage('notimetodie.html')"><img src="https://image.tmdb.org/t/p/original/iUgygt3fscRoKWCV1d0C7FbM9TP.jpg" alt="Action 3"><p>No Time To Die</p></div>
+                        <div class="movie" onclick="openMoviePage('gladiator.html')"><img src="https://xl.movieposterdb.com/11_04/2000/172495/xl_172495_e38e5b79.jpg" alt="Action 4"><p>Gladiator</p></div>
+                        <div class="movie" onclick="openMoviePage('mifallout.html')"><img src="https://i.pinimg.com/736x/e8/03/c3/e803c301c5c16cafbf4c182e473b6c03.jpg" alt="Action"><p>MI: Fallout</p></div>  
+                        <div class="movie" onclick="openMoviePage('extraction.html')"><img src="https://xl.movieposterdb.com/23_07/2020/8936646/xl_extraction-movie-poster_b4fb5d82.jpg" alt="Action 6"><p>Extraction</p></div>
+                        <div class="movie" onclick="openMoviePage('rrr.html')"><img src="https://www.reelviews.net/resources/img/posters/thumbs/RRR_poster.jpg" alt="Action 7"><p>RRR</p></div>
+                    </div>
+            </div>
+
+            <div class="genre" id="genres">
+                <div class="genre">
+                    <h2 id="thriller">Thriller</h2>
+                        <div class="movie-list">
+                            <div class="movie" onclick="openMoviePage('dunkirk.html')"><img src="https://image.tmdb.org/t/p/original/b4Oe15CGLL61Ped0RAS9JpqdmCt.jpg" alt="Thriller 1"><p>Dunkirk</p></div>
+                            <div class="movie" onclick="openMoviePage('fightclub.html')"><img src="https://image.tmdb.org/t/p/original/fGkVDmJgrfvLtrDtYlCxwlkkSNY.jpg" alt="Thriller 2"><p>Fight Club</p></div>
+                            <div class="movie" onclick="openMoviePage('gonegirl.html')"><img src="https://image.tmdb.org/t/p/original/cBVI1sRDzAsPl0ivlA8cQzrbh3o.jpg" alt="Thriller 3"><p>Gone Girl</p></div>
+                            <div class="movie" onclick="openMoviePage('darkknight.html')"><img src="https://image.tmdb.org/t/p/original/pKKvCaL1TPTVtbI6EeliyND3api.jpg" alt="Thriller 4"><p>The Dark Knight</p></div>
+                            <div class="movie" onclick="openMoviePage('zodiac.html')"><img src="https://image.tmdb.org/t/p/original/dloZIVnpDuWS9pSeJUJZwZydAmn.jpg" alt="Thriller 5"><p>Zodiac</p></div>  
+                            <div class="movie" onclick="openMoviePage('prestige.html')"><img src="https://image.tmdb.org/t/p/original/bdN3gXuIZYaJP7ftKK2sU0nPtEA.jpg" alt="Thriller 6"><p>The Prestige</p></div>
+                            <div class="movie" onclick="openMoviePage('prisoners.html')"><img src="https://image.tmdb.org/t/p/original/oXrGVY9mapmu5kbyONzfe9K3ZST.jpg" alt="Thriller 7"><p>Prisoners</p></div>
+                        </div>
+            </div>
+
+            <div class="genre" id="genres">
+                <div class="genre">
+                    <h2 id="drama">Drama</h2>
+                        <div class="movie-list">
+                            <div class="movie" onclick="openMoviePage('godfather.html')"><img src="https://image.tmdb.org/t/p/original/hMTncCsOwZZCNOo5SBhE1wQKpid.jpg" alt="Drama 2"><p>The Godfather</p></div>
+                            <div class="movie" onclick="openMoviePage('greenmile.html')"><img src="https://image.tmdb.org/t/p/original/o0lO84GI7qrG6XFvtsPOSV7CTNa.jpg" alt="Drama 1"><p>The Green Mile</p></div>
+                            <div class="movie" onclick="openMoviePage('gentlemen.html')"><img src="https://image.tmdb.org/t/p/original/dXuakuZHzuJhboybsmvgjRsT7SE.jpg" alt="Drama 3"><p>The Gentlemen</p></div>
+                            <div class="movie" onclick="openMoviePage('lalaland.html')"><img src="https://image.tmdb.org/t/p/original/lcYwCSTzCHv0Z2QRpfztt75JyYj.jpg" alt="Drama 4"><p>La La Land</p></div>
+                            <div class="movie" onclick="openMoviePage('dontlookup.html')"><img src="https://image.tmdb.org/t/p/original/6fYZm2XJxKHX2m58wWfa9KbX54S.jpg" alt="Drama 5"><p>Don't Look Up</p></div>  
+                            <div class="movie" onclick="openMoviePage('goodwillhunting.html')"><img src="https://image.tmdb.org/t/p/original/z2FnLKpFi1HPO7BEJxdkv6hpJSU.jpg" alt="Drama 6"><p>Good Will Hunting</p></div>
+                            <div class="movie" onclick="openMoviePage('americanhustle.html')"><img src="https://image.tmdb.org/t/p/original/z6O1KDhfWDTm5ZBr6Ovr0eg8LqO.jpg" alt="Drama 7"><p>American Hustle</p></div>
+                        </div>
+            </div>
+
+            <div class="genre" id="genres">
+                <div class="genre">
+                    <h2 id="biopic">Biopic</h2>
+                        <div class="movie-list">
+                            <div class="movie" onclick="openMoviePage('oppenheimer.html')"><img src="https://image.tmdb.org/t/p/original/ptpr0kGAckfQkJeJIt8st5dglvd.jpg" alt="Biopic 1"><p>Oppenheimer</p></div>
+                            <div class="movie" onclick="openMoviePage('napolean.html')"><img src="https://image.tmdb.org/t/p/original/eBThvTsLomqsAoOf0CvnETMYDQw.jpg" alt="Biopic 2"><p>Napolean</p></div>
+                            <div class="movie" onclick="openMoviePage('rhapsody.html')"><img src="https://image.tmdb.org/t/p/original/3TQRC4WFjtr5PylWYpo81TlqPNU.jpg" alt="Biopic 3"><p>Bohemian Rhapsody</p></div>
+                            <div class="movie" onclick="openMoviePage('socialnetwork.html')"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNEIkkJOlPqhxbb2hC3m5hBiuBkm7gszXiKQ&s" alt="Biopic 4"><p>The Social Network</p></div>
+                            <div class="movie" onclick="openMoviePage('fordvferrari.html')"><img src="https://image.tmdb.org/t/p/original/q6OnDNNsVQdlnvbmlnqrhALui0x.jpg" alt="Biopic 5"><p>Ford v Ferrari</p></div>  
+                            <div class="movie" onclick="openMoviePage('pianist.html')"><img src="https://image.tmdb.org/t/p/original/3DzePKMbLMIM636S6syCy3cLPqj.jpg" alt="Biopic 6"><p>The Pianist</p></div>
+                            <div class="movie" onclick="openMoviePage('lincoln.html')"><img src="https://image.tmdb.org/t/p/original/oOo905cttAIkHERDBya5sX6HbIV.jpg" alt="Biopic 7"><p>Lincoln</p></div>
+                        </div>
+            </div>
+
+            <div class="genre" id="genres">
+                <div class="genre">
+                    <h2 id="adventure">Adventure</h2>
+                        <div class="movie-list">
+                            <div class="movie" onclick="openMoviePage('northman.html')"><img src="https://image.tmdb.org/t/p/original/aSSJMnHknzKjlZ6zybwD7eyJ4Po.jpg" alt="Adventure 1"><p>The Northman</p></div>
+                            <div class="movie" onclick="openMoviePage('revenant.html')"><img src="https://image.tmdb.org/t/p/original/wkA03WX3IdHYMX2gIxaCwqowQX.jpg" alt="Adventure 2"><p>The Revenant</p></div>
+                            <div class="movie" onclick="openMoviePage('jurassicpark.html')"><img src="https://image.tmdb.org/t/p/original//fjTU1Bgh3KJu4aatZil3sofR2zC.jpg" alt="Adventure 3"><p>Jurassic Park</p></div>
+                            <div class="movie" onclick="openMoviePage('300.html')"><img src="https://i.ebayimg.com/images/g/5okAAOSwKXZk37-H/s-l1200.jpg" alt="Adventure 4"><p>300</p></div>
+                            <div class="movie" onclick="openMoviePage('junglebook.html')"><img src="https://image.tmdb.org/t/p/original/fc7THOunWR5fKOn65cXrLrrv7s9.jpg" alt="Adventure 5"><p>The Jungle Book</p></div>  
+                            <div class="movie" onclick="openMoviePage('troy.html')"><img src="https://image.tmdb.org/t/p/original/51auXjXepW1zblzhaN7CAhwvf5i.jpg" alt="Adventure 6"><p>Troy</p></div>
+                            <div class="movie" onclick="openMoviePage('adastra.html')"><img src="https://image.tmdb.org/t/p/original/xBHvZcjRiWyobQ9kxBhO6B2dtRI.jpg" alt="Adventure 7"><p>Ad Astra</p></div>
+                        </div>
+            </div>
+                
+                    
+                        
+            <div class="genre" id="genres">
+                <div class="genre">
+                    <h2 id="superhero">Superhero</h2>
+                        <div class="movie-list">
+                            <div class="movie" onclick="openMoviePage('thebatman.html')"><img src="https://m.media-amazon.com/images/M/MV5BMmU5NGJlMzAtMGNmOC00YjJjLTgyMzUtNjAyYmE4Njg5YWMyXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Superhero 1"><p>The Batman</p></div>
+                            <div class="movie" onclick="openMoviePage('endgame.html')"><img src="https://external-preview.redd.it/Ixyi__lJauK_K0iRhL81xQMoQgPMf2KKU0nAH3J_BC0.jpg?auto=webp&s=3dcdc4a8dd88fd6f7aa77a0d851d713121c3f23a" alt="Superhero 2"><p>Avengers Endgame</p></div>
+                            <div class="movie" onclick="openMoviePage('spiderman.html')"><img src="https://image.tmdb.org/t/p/original/wZGlaMxBAjCIYLzyDWvocaoNooZ.jpg" alt="Superhero 3"><p>Spiderman</p></div>
+                            <div class="movie" onclick="openMoviePage('avengers.html')"><img src="https://image.tmdb.org/t/p/original/ywb9dKBMdu3DEiTFpXrLofYizVC.jpg" alt="Superhero 4"><p>The Avengers</p></div>
+                            <div class="movie" onclick="openMoviePage('justiceleague.html')"><img src="https://myhotposters.com/cdn/shop/products/mL5174.jpg?v=1615144518" alt="Superhero 5"><p>Justice League</p></div>  
+                            <div class="movie" onclick="openMoviePage('blackpanther.html')"><img src="https://w0.peakpx.com/wallpaper/568/61/HD-wallpaper-black-panther-2018-marvel-movie-poster-war.jpg" alt="Superhero 6"><p>Black Panther</p></div>
+                            <div class="movie" onclick="openMoviePage('logan.html')"><img src="https://i.pinimg.com/474x/d1/13/f2/d113f2831f6f1ae03de695d18c1dcb3f.jpg" alt="Superhero 7"><p>Logan</p></div>
+                        </div>
+            </div>
+
+        </div>
+    </div>
+    <p class="paragraph">
+    🎬 Explore our collection of the best movies across different genres, from thrilling sci-fi adventures to heart-pounding horror and epic action films.  
+    Whether you're a fan of mind-bending plots, spine-chilling scares, or heartwarming dramas, we've got something for everyone.  
+    Click on any movie to read its story, reviews, and insights.  
+    Discover hidden gems, revisit classics, and find your next favorite film right here! 🍿  
+</p>
+
+
+<!-- HTML -->
+<footer class="footer">
+    <div class="footer-container">
+      <div class="footer-section">
+        <h3>Cinephile's Choice</h3>
+        <p>Your daily dose of movie recommendations, sorted by genre.</p>
+      </div>
+  
+      <div class="footer-section">
+        <h4  id="quicklinks">Quick Links</h4>
+        <ul>
+          <li><a href="aboutus.html">About Us</a></li>
+          <li><a href="contactus.html">Contact Us</a></li>
+          <li><a href="#genres">Genres</a></li>
+        </ul>
+      </div>
+  
+      <div class="footer-section">
+        <h4>Follow Us</h4>
+        <div class="social-icons">
+        <a href="https://www.instagram.com/ajit_m_07/?__pwa=1"><img src="https://static.vecteezy.com/system/resources/thumbnails/023/986/555/small/instagram-logo-instagram-logo-transparent-instagram-icon-transparent-free-free-png.png" width="50px" height="50px" alt="Instagram"></a>
+          <a href="https://www.linkedin.com/in/ajit-mangsulikar-504775335/"><img src="https://static.vecteezy.com/system/resources/previews/023/986/926/non_2x/linkedin-logo-linkedin-logo-transparent-linkedin-icon-transparent-free-free-png.png" width="50px" height="50px" alt="LinkedIn"></a>
+     
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Cinephile's Choice</p>
+    </div>
+  </footer>
+  
+
+    
+    <script>
+        function filterMovies() {
+            let input = document.getElementById("search").value.toLowerCase();
+            let movies = document.querySelectorAll(".movie");
+            movies.forEach(movie => {
+                let title = movie.querySelector("p").innerText.toLowerCase();
+                movie.style.display = title.includes(input) ? "block" : "none";
+            });
+        } 
+        function openMoviePage(page) {
+            window.location.href = page;
+        
+        }
+        
+    const toggleButton = document.getElementById("sidebarToggle");
+    const sidebar = document.getElementById("sidebar");
+
+    toggleButton.addEventListener("click", function () {
+        if (sidebar.style.width === "250px") {
+            sidebar.style.width = "0";
+        } else {
+            sidebar.style.width = "250px";
+        }
+    });
+
+
+    document.querySelectorAll('#sidebar a').forEach(link => {
+        link.addEventListener('click', () => {
+            sidebar.style.width = "0";
+        });
+    });
+
+</script>   
+</body>
+</html>

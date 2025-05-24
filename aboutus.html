@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About Us | Cinephile's Choice</title>
+  <style>
+    body {
+      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color:#0c3245;
+      background: url('https://img.freepik.com/premium-photo/abstract-dark-blue-red-gradient-background-illustration-your-design_900706-8792.jpg') no-repeat center center/cover;
+      color: #fff;
+    }
+
+    .about-container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+      color: #ff9900;
+    }
+
+    p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      margin-bottom: 1rem;
+    }
+
+    .team {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1.5rem;
+    }
+
+    .member {
+      background:linear-gradient(to right, rgba(50, 16, 16, 0.185), rgba(255, 255, 255, 0)) rgb(5, 17, 51);
+      border-radius: 10px;
+      padding: 1rem 1.5rem;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+      transition: transform 0.3s ease-in-out;
+      margin:10px;
+    }
+
+    .member:hover {
+      transform: scale(1.1); 
+    }
+
+    .member-name {
+      font-size: 1.2rem;
+      font-weight: bold;
+      margin-bottom: 0.5rem;
+      color: #ffffff;
+    }
+
+    .footer-note {
+      margin-top: 1rem;
+      font-size: 0.9rem;
+      color: #888;
+    }
+    .no-bullets {
+    list-style: none;
+    padding-left: 0;
+    }
+    .back-button {
+        position: fixed;
+        top: 10px;
+        left: 10px;
+        background: rgba(164, 164, 164, 0.668);
+        border: none;
+        border-radius: 4px;
+        padding: 5px;
+        cursor: pointer;
+        z-index: 9999;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+        }
+
+        .back-button img {
+        width: 25px;
+        height: 20px;
+        }
+  </style>
+</head>
+<body>
+    <button class="back-button" onclick="goBack()">
+        <img src="https://img.icons8.com/ios-filled/50/000000/left.png" alt="Back">
+      </button>
+  <div class="about-container">
+    <h1>About Us</h1>
+    <p>
+      Cinephile's Choice is a genre-based movie recommendation website, built as part of our college project.<br>
+      Our goal is to help users discover amazing movies in every genre with a smooth and interactive browsing experience.
+    </p>
+
+    <h2>Team Members</h2>
+    <div class="team">
+    <ul class="no-bullets">
+      <li><a href="https://www.instagram.com/sejal_18_/?utm_source=ig_web_button_share_sheet" style="text-decoration: none"><div class="member"><div class="member-name">Sejal Balikai  ||  245109005</div></div></a></li>
+      <li><a href="https://www.instagram.com/ajit_m_07/" style="text-decoration: none"><div class="member"><div class="member-name">Ajit Mangsulikar   ||   245109003</div></div></a></li>
+      <li><a href="https://www.instagram.com/subrav_bhande_sb?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" style="text-decoration: none"><div class="member"><div class="member-name">Subrav Bhande  ||  245109001</div></div></a></li>
+      <li><a href="https://www.instagram.com/dhanrajlambe?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" style="text-decoration: none"><div class="member"><div class="member-name">Dhanraj Lambe  ||  245109004</div></div></a></li>
+      <li><a href="https://www.instagram.com/sohan_gadge.07?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" style="text-decoration: none"><div class="member"><div class="member-name">Sohan Gadge  ||  245109002</div></div></a></li>
+      
+    </ul>
+    
+    </div>
+
+    <div class="footer-note">
+      Made with ❤️ || © 2025 Cinephile's Choice
+    </div>
+  </div>
+</body>
+<script>
+    function goBack(page){
+    window.location.href ="index.html";
+    }
+</script>
+</html>
